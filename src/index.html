@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./output.css" rel="stylesheet">
+        <link href="./styles.css" rel="stylesheet">
+        <title>Jujustu Kaisen</title>
+    </head>
+    <body class="bg-black font-sans">
+
+        <header>
+            <nav>
+                <ul
+                    class="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto py-8">
+                    <a class="logo select-none cursor-default" href="#">
+                        <img src="../img/Jujutsu_Kaisen_logo.png" alt="logo"
+                            class="w-[60%] md:w-[40%]">
+                    </a>
+                    <input type="checkbox" id="check" />
+
+                    <span
+                        class="menu select-none flex [&>li]:pl-8 [&>li>a]:text-center [&>li>a]:relative [&>li>a]:transition [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a]:font-medium [&>li>a]:text-2xl lg:w-[20%] w-[60%]">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+
+                        <label for="check"
+                            class="close-menu cursor-pointer absolute hidden top-[60px] lg:top-[80px] right-[40px] lg:right-[80px] select-none">X</label>
+                    </span>
+
+                    <label for="check"
+                        class="open-menu cursor-pointer absolute hidden text-5xl right-0 text-white select-none">=</label>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container mx-auto my-8 relative">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+                <div class="flex justify-center">
+                    <img src="../img/sukuna-banner.svg" alt="itadori"
+                        class="w-[80%]">
+                </div>
+
+                <div
+                    class="flex flex-col justify-center items-center text-white text-justify mx-16">
+                    <h1 class="my-10 text-6xl font-bold">SUKUNA</h1>
+                    <p class="text-xl">Ryomen Sukuna, comúnmente llamado
+                        Sukuna es el antagonista de la serie de manga y
+                        anime Jujutsu Kaisen. Es un espíritu maldito el cual es
+                        considerado el Rey de las maldiciones desde hace más de
+                        mil años. Se cree que siempre fue una maldición, pero en
+                        realidad fue un hechicero humano antes de ser sellado y
+                        encarnado como espíritu maldito, en el que su inmenso
+                        poder era tan fuerte que tuvo que ser separado sus
+                        veinte dedos. Al principio de la historia, Yuji Itadori
+                        se comió uno de sus dedos, convirtiéndose en su
+                        recipiente y devolviendo a Sukuna a la vida.</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container mx-auto py-10">
+            <div
+                class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mx-16">
+                <div
+                    class="flex justify-center  "><a href="./index.html"><img
+                            src="../img/sukuna-icon.webp" alt="sukuna-icon"
+                            class="rounded-full w-52 cursor-pointer transition duration-300 transform hover:scale-125 border-2"></a></div>
+                <div
+                    class="flex justify-center"><a href="./itadori.html"><img
+                            src="../img/itadori-icon.webp" alt="itadori-icon"
+                            class="rounded-full w-52 cursor-pointer transition duration-300 transform hover:scale-125 hover:border-2"></a></div>
+                <div
+                    class="flex justify-center"><a href="./gojo.html"><img
+                            src="../img/gojo-icon.webp" alt="gojo-icon"
+                            class="rounded-full w-52 cursor-pointer transition duration-300 transform hover:scale-125 hover:border-2"></a></div>
+                <div
+                    class="flex justify-center"><a href="./megumi.html"><img
+                            src="../img/megumi-icon.webp" alt="megumi-icon"
+                            class="rounded-full w-52 cursor-pointer transition duration-300 transform hover:scale-125 hover:border-2"></a></div>
+            </div>
+        </div>
+
+        <script
+            src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    </body>
+</html>
